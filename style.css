@@ -35,10 +35,31 @@ header{
 
 .container-input{
   opacity: 0.3;
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.container-input input{
+  margin: auto;
+  width:98%;
 }
 
 .container-white button{
-  width: 85%;
+  width: 80%;
+}
+
+@media screen and (max-width: 990px){
+  .container-white{
+    height: 100%;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+  }
+  .container-white h2{
+    width: 80%;
+    margin: auto;
+  }
+
 }
 
 .text-small{
@@ -47,7 +68,7 @@ header{
 
 .companies{
   background-color: #F2F5F9;
-  height: 300px;
+  min-height: 300px;
 }
 
 .companies h2{
@@ -66,7 +87,7 @@ header{
 }
 
 .info{
-  height: 700px;
+  min-height: 700px;
 }
 
 .bar{
