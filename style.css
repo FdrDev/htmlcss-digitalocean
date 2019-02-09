@@ -1,0 +1,168 @@
+*{box-sizing: border-box; margin:0; padding: 0;}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  background-image: url('https://www.digitalocean.com/assets/media/homepage/hero-background-c9490927.svg');
+  background-size: cover;
+}
+
+.navbar{
+  background: transparent!important;
+}
+
+.container-cta h1{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.container-cta p{
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.container-white{
+  background-color: white;
+  height: 80%;
+  width: 85%;
+}
+
+.container-white h2{
+  font-weight: 600;
+}
+
+.container-input{
+  opacity: 0.3;
+}
+
+.container-white button{
+  width: 85%;
+}
+
+.text-small{
+  font-size: 10px;
+}
+
+.companies{
+  background-color: #F2F5F9;
+  height: 300px;
+}
+
+.companies h2{
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.images img{
+  width: 150px;
+  height: 86px;
+}
+
+#splunk{
+  margin-top: 18px;
+  height: 43px;
+}
+
+.info{
+  height: 700px;
+}
+
+.bar{
+  width: 5px;
+  background-color: #F8F9FA;
+  height: 400px;
+}
+
+.blue-selector{
+  background-color: blue;
+  height: 80px;
+  width: 5px;
+  position:absolute;
+  top:10%;
+  left:50%;
+  transform: translate(-50% , -50%);
+}
+
+.h3-selector ul{
+  height: 100%;
+}
+
+.square{ /*non ho trovato al volo le immaginine*/
+  height: 30px;
+  width: 30px;
+  background-color: red;
+}
+
+.screen{
+  background-color: #F8F9FA;
+  height: 100%;
+  width: 100%;
+}
+
+.screen-container i{
+  font-size: 35px;
+}
+
+.circle{
+  width: 15px;
+  height: 15px;
+  border:2px solid blue;
+  outline: 1px solid #fff;
+  outline-offset: -10px;
+  border-radius: 50%;
+}
+
+#full{
+  background-color: blue;
+}
+
+.screen-text p{
+  opacity: 0.7;
+}
+
+.regions{
+  background: #0069ff;
+  background-image: url('https://www.digitalocean.com/assets/media/homepage/data-center-map-8227272d.svg');
+  background-size:cover;
+}
+
+td{
+  opacity:  0.7;
+  font-size: 12px;
+}
+
+.cta{
+  background: #0069ff;
+  background-image: url('https://www.digitalocean.com/assets/media/homepage/cta-band-background-7073c622.svg');
+  background-size:cover;
+
+}
+
+.btn-cta{
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+footer{
+  background-color: #00152C;
+}
+
+.footer-logo img{
+  width: 50px;
+}
+
+.social i{
+  padding: 0 15px;
+  font-size: 20px;
+}
+
+.footer-fix a{
+  display: block;
+  opacity: 0.6;
+  text-decoration: none;
+  color: white;
+}
